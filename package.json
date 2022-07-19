@@ -1,0 +1,18 @@
+{
+    "name": "discord-bot-builder-bot",
+    "author": "Discord Bot Builder",
+    "description": "Discord bot created with Discord Bot Builder.",
+    "version": "0.3.2",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "canvas": "^2.9.3",
+        "console-aio": "^1.0.0",
+        "discord-buttons": "^4.0.0-deprecated",
+        "discord.js": "12.x",
+        "fstorm": "^0.1.3",
+        "lodash": "^4.17.21"
+    }
+}
