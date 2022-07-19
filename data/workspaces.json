@@ -1,0 +1,2264 @@
+[
+    {
+        "info": {
+            "title": "Отрисовка карты",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "text",
+                "info": {
+                    "x": 8244,
+                    "y": 470,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 1281
+                },
+                "options": {
+                    "text": "https://i.imgur.com/EpFvfMD.jpg"
+                },
+                "outputs": {
+                    "text": [
+                        "eZ0AY8d3Fp"
+                    ]
+                }
+            },
+            {
+                "name": "send_message_component",
+                "info": {
+                    "x": 13709,
+                    "y": 1264,
+                    "z": 11,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "BAEpNGj5ur",
+                    "channel": "Hhyz5WvHDo",
+                    "text": "NMkPcWSeIx",
+                    "embed": "1ArljirUlR",
+                    "attachment": "OGrCeMRLsp",
+                    "buttons": "sQorfoMSi5",
+                    "split_message": "b44Q4NGn9d"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": [],
+                    "error": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 8256,
+                    "y": 297,
+                    "z": 14,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 1278
+                },
+                "options": {
+                    "text": "https://i.imgur.com/BYjWwW1.png"
+                },
+                "outputs": {
+                    "text": [
+                        "CXTnThEw1K"
+                    ]
+                }
+            },
+            {
+                "name": "number_12x",
+                "info": {
+                    "x": 9752,
+                    "y": 592,
+                    "z": 23,
+                    "color": "#5a5a5a",
+                    "height": 423,
+                    "width": 374
+                },
+                "options": {
+                    "number1": "2250",
+                    "number2": "2250",
+                    "number3": "1085",
+                    "number4": "1027",
+                    "number5": "46",
+                    "number6": "50",
+                    "number7": "50",
+                    "number8": "",
+                    "number9": "",
+                    "number10": "",
+                    "number11": "",
+                    "number12": ""
+                },
+                "outputs": {
+                    "number1": [
+                        "GfrFlc0RNB"
+                    ],
+                    "number2": [
+                        "NSLV6Wwam5"
+                    ],
+                    "number3": [],
+                    "number4": [],
+                    "number5": [
+                        "Ebx37Kky1i"
+                    ],
+                    "number6": [
+                        "5mPaZuBUaM"
+                    ],
+                    "number7": [],
+                    "number8": [],
+                    "number9": [],
+                    "number10": [],
+                    "number11": [],
+                    "number12": []
+                }
+            },
+            {
+                "name": "get_message_embed_info",
+                "info": {
+                    "x": 7010,
+                    "y": 3619,
+                    "z": 48,
+                    "color": "#5a5a5a",
+                    "height": 134,
+                    "width": 624
+                },
+                "inputs": {
+                    "action": "5vnd217osL",
+                    "message_embed": "XXptIU9F4s"
+                },
+                "options": {
+                    "message_embed_info": "10"
+                },
+                "outputs": {
+                    "action": [
+                        "JjT7rhNosm"
+                    ],
+                    "result": [
+                        "7N4qfy9ks1",
+                        "Czyedez8SO"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 7852,
+                    "y": 3634,
+                    "z": 49,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "JjT7rhNosm",
+                    "list": "7N4qfy9ks1",
+                    "custom_position": "1GUdLUkDYN"
+                },
+                "options": {
+                    "position_type": "custom"
+                },
+                "outputs": {
+                    "action": [
+                        "Ze6NaxfiFL"
+                    ],
+                    "value": [
+                        "85qhhSD00G"
+                    ]
+                }
+            },
+            {
+                "name": "message_event",
+                "info": {
+                    "x": 3899,
+                    "y": 3206,
+                    "z": 51,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 233
+                },
+                "outputs": {
+                    "action": [
+                        "c51SugIyK8"
+                    ],
+                    "message": [
+                        "WH7pwxlAlE",
+                        "PXpJ6LVB0g",
+                        "nBt6HRirVr",
+                        "aIPuaa9Wlr"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 5600,
+                    "y": 3611,
+                    "z": 52,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "XFmqqbrrlh",
+                    "message": "WH7pwxlAlE"
+                },
+                "options": {
+                    "message_info": "12"
+                },
+                "outputs": {
+                    "action": [
+                        "cthjSXsnxm"
+                    ],
+                    "result": [
+                        "VFjoIUFcof"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 6432,
+                    "y": 3612,
+                    "z": 53,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "cthjSXsnxm",
+                    "list": "VFjoIUFcof",
+                    "custom_position": "0uQ0aoSwqw"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "5vnd217osL"
+                    ],
+                    "value": [
+                        "XXptIU9F4s"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 7635,
+                    "y": 3159,
+                    "z": 56,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "name"
+                },
+                "outputs": {
+                    "text": []
+                }
+            },
+            {
+                "name": "create_embed_message",
+                "info": {
+                    "x": 13300,
+                    "y": 1075,
+                    "z": 62,
+                    "color": "#5a5a5a",
+                    "height": 517,
+                    "width": 340
+                },
+                "inputs": {
+                    "action": "T2KFVwZCuQ",
+                    "color": "vTEtwUKynG",
+                    "thumbnail": "1RoF1LH7wc",
+                    "author_icon": "KxkJHBGg9q",
+                    "author_name": "iGQD4y56VT",
+                    "author_url": "jNA4zZd9Fo",
+                    "title": "uOrkIAGGOB",
+                    "url": "tPLHWlN4G0",
+                    "description": "9GoMJGiPdH",
+                    "image": "KKmE2lJJnU",
+                    "footer_icon": "gDXBqexmLc",
+                    "footer_text": "ZTwWfRYJxc",
+                    "timestamp": "bzC5EPXIhK"
+                },
+                "outputs": {
+                    "action": [
+                        "BAEpNGj5ur"
+                    ],
+                    "message_embed": [
+                        "1ArljirUlR"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 4584,
+                    "y": 3237,
+                    "z": 65,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "GWURMxr2QC",
+                    "message": "PXpJ6LVB0g"
+                },
+                "options": {
+                    "message_info": "3"
+                },
+                "outputs": {
+                    "action": [
+                        "twb5zY1OFN"
+                    ],
+                    "result": [
+                        "cN6MfiCz4o"
+                    ]
+                }
+            },
+            {
+                "name": "find_channel",
+                "info": {
+                    "x": 4578,
+                    "y": 3031,
+                    "z": 66,
+                    "color": "#5a5a5a",
+                    "height": 159,
+                    "width": 558
+                },
+                "inputs": {
+                    "action": "zD4UqNaIOP",
+                    "server": "QiHn5MNY33",
+                    "search_value": "bJY1c49fsQ"
+                },
+                "options": {
+                    "channel_type": "any",
+                    "find_channel_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "GWURMxr2QC"
+                    ],
+                    "channel": [
+                        "AnyEcD9y6m"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 3622,
+                    "y": 2964,
+                    "z": 67,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "998565465959964792"
+                },
+                "outputs": {
+                    "text": [
+                        "bJY1c49fsQ",
+                        "R6fepAbgjK"
+                    ]
+                }
+            },
+            {
+                "name": "find_text",
+                "info": {
+                    "x": 4590,
+                    "y": 3551,
+                    "z": 68,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 314
+                },
+                "inputs": {
+                    "action": "u34oCphzJY",
+                    "source_text": "HmSBeJfc3P",
+                    "text": "R6fepAbgjK",
+                    "result_number": "JwXSMThoYQ"
+                },
+                "outputs": {
+                    "action": [
+                        "eH0iEsWfob"
+                    ],
+                    "position": [
+                        "OPuWKr6ZUi"
+                    ]
+                }
+            },
+            {
+                "name": "get_text_channel_info",
+                "info": {
+                    "x": 4581,
+                    "y": 3389,
+                    "z": 69,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 687
+                },
+                "inputs": {
+                    "action": "twb5zY1OFN",
+                    "text_channel": "cN6MfiCz4o"
+                },
+                "options": {
+                    "text_channel_info": "5"
+                },
+                "outputs": {
+                    "action": [
+                        "u34oCphzJY"
+                    ],
+                    "result": [
+                        "HmSBeJfc3P"
+                    ]
+                }
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 4996,
+                    "y": 3585,
+                    "z": 70,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "eH0iEsWfob",
+                    "value1": "OPuWKr6ZUi",
+                    "value2": "VSugmVCrqn"
+                },
+                "options": {
+                    "comparison_type": "not_equal_exactly"
+                },
+                "outputs": {
+                    "action1": [
+                        "3hSySs10I1"
+                    ],
+                    "action2": []
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 4586,
+                    "y": 3776,
+                    "z": 71,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "-1"
+                },
+                "outputs": {
+                    "number": [
+                        "VSugmVCrqn"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 7846,
+                    "y": 3849,
+                    "z": 72,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "p8taveKR4J",
+                    "list": "Czyedez8SO",
+                    "custom_position": "nu4yg5vcnl"
+                },
+                "options": {
+                    "position_type": "custom"
+                },
+                "outputs": {
+                    "action": [
+                        "5tdJ2LAy6K"
+                    ],
+                    "value": [
+                        "ttdQxeiPIF",
+                        "EzKUm55uX4"
+                    ]
+                }
+            },
+            {
+                "name": "number_3x",
+                "info": {
+                    "x": 7264,
+                    "y": 3833,
+                    "z": 73,
+                    "color": "#5a5a5a",
+                    "height": 219,
+                    "width": 356
+                },
+                "options": {
+                    "number1": "1",
+                    "number2": "2",
+                    "number3": "3"
+                },
+                "outputs": {
+                    "number1": [
+                        "1GUdLUkDYN"
+                    ],
+                    "number2": [
+                        "nu4yg5vcnl"
+                    ],
+                    "number3": []
+                }
+            },
+            {
+                "name": "text_2x",
+                "info": {
+                    "x": 7967,
+                    "y": 3367,
+                    "z": 75,
+                    "color": "#5a5a5a",
+                    "height": 185,
+                    "width": 318
+                },
+                "options": {
+                    "text1": "name",
+                    "text2": "value"
+                },
+                "outputs": {
+                    "text1": [
+                        "Xc6oAnvhXD",
+                        "JeZdJm9Atr"
+                    ],
+                    "text2": [
+                        "WeAgNNArPw"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 8793,
+                    "y": 3465,
+                    "z": 78,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "5tdJ2LAy6K",
+                    "object": "ttdQxeiPIF",
+                    "key": "Xc6oAnvhXD"
+                },
+                "outputs": {
+                    "action": [
+                        "Jp1tIETQK3"
+                    ],
+                    "value": [
+                        "szZFBrmvtL"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 8777,
+                    "y": 3723,
+                    "z": 79,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "8tzClGeE38",
+                    "object": "EzKUm55uX4",
+                    "key": "WeAgNNArPw"
+                },
+                "outputs": {
+                    "action": [
+                        "GeW3UTF77W"
+                    ],
+                    "value": [
+                        "OlyaKJ64m2"
+                    ]
+                }
+            },
+            {
+                "name": "find_user",
+                "info": {
+                    "x": 10236,
+                    "y": 2932,
+                    "z": 83,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 526
+                },
+                "inputs": {
+                    "action": "RXs6QD3a6L",
+                    "search_value": "84mGr7AeTa"
+                },
+                "options": {
+                    "find_user_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "YkOkKUVPCw"
+                    ],
+                    "user": [
+                        "rXPYXfFKSd"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 8769,
+                    "y": 2931,
+                    "z": 88,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "Ze6NaxfiFL",
+                    "object": "85qhhSD00G",
+                    "key": "JeZdJm9Atr"
+                },
+                "outputs": {
+                    "action": [
+                        "e5w0fH4dKH"
+                    ],
+                    "value": [
+                        "Nc0sOQyf3M"
+                    ]
+                }
+            },
+            {
+                "name": "get_user_info",
+                "info": {
+                    "x": 10861,
+                    "y": 2933,
+                    "z": 91,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 544
+                },
+                "inputs": {
+                    "action": "YkOkKUVPCw",
+                    "user": "rXPYXfFKSd"
+                },
+                "options": {
+                    "user_info": "8"
+                },
+                "outputs": {
+                    "action": [
+                        "p8taveKR4J"
+                    ],
+                    "result": [
+                        "Hhyz5WvHDo"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 12651,
+                    "y": 1504,
+                    "z": 98,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://i.imgur.com/2rHRhOz.png"
+                },
+                "outputs": {
+                    "text": [
+                        "1RoF1LH7wc"
+                    ]
+                }
+            },
+            {
+                "name": "create_canvas_mod4",
+                "info": {
+                    "x": 10795,
+                    "y": 508,
+                    "z": 101,
+                    "color": "#5a5a5a",
+                    "height": 578,
+                    "width": 439
+                },
+                "inputs": {
+                    "action": "CuAl3buGOX",
+                    "path": "eZ0AY8d3Fp",
+                    "width": "GfrFlc0RNB",
+                    "height": "NSLV6Wwam5",
+                    "image": "CXTnThEw1K",
+                    "x2": "7Rzqsfsxth",
+                    "y2": "12HNiIzSsv",
+                    "w1": "Ebx37Kky1i",
+                    "h1": "5mPaZuBUaM",
+                    "opacity1": "TbCpO4PFzv",
+                    "_text": "XSwmQaHol9",
+                    "font": "cxl8rD79o0",
+                    "color2": "7oeN0gsRy5",
+                    "size": "eEY3RVhPeW",
+                    "x": "AYd5CO6dHE",
+                    "y": "nyfDszU3fk",
+                    "opacity2": "KdlT5XUT7C"
+                },
+                "options": {
+                    "align": "left",
+                    "text_type": "fill",
+                    "text_italic": "normal",
+                    "text_bold": "normal",
+                    "NOTES": "butt"
+                },
+                "outputs": {
+                    "action": [
+                        "Jf7zKVzxDE"
+                    ],
+                    "canvas": [
+                        "zQw8QOVaQF"
+                    ]
+                }
+            },
+            {
+                "name": "convert_canvas_to_image_mod2",
+                "info": {
+                    "x": 11488,
+                    "y": 315,
+                    "z": 102,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 258
+                },
+                "inputs": {
+                    "action": "Jf7zKVzxDE",
+                    "path": "zQw8QOVaQF"
+                },
+                "outputs": {
+                    "action": [
+                        "Li58FIU7QJ"
+                    ],
+                    "image": [
+                        "sOptvE4BDx"
+                    ]
+                }
+            },
+            {
+                "name": "color",
+                "info": {
+                    "x": 12008,
+                    "y": 1020,
+                    "z": 103,
+                    "color": "#5a5a5a",
+                    "height": 105,
+                    "width": 193
+                },
+                "options": {
+                    "color": "#ff3e3e"
+                },
+                "outputs": {
+                    "color": [
+                        "vTEtwUKynG"
+                    ]
+                }
+            },
+            {
+                "name": "generate_random_number",
+                "info": {
+                    "x": 11883,
+                    "y": 717,
+                    "z": 104,
+                    "color": "#5a5a5a",
+                    "height": 186,
+                    "width": 289
+                },
+                "inputs": {
+                    "action": "0D6DR33VVH",
+                    "min_number": "mp36RbBbGp",
+                    "max_number": "cWH4ki6ST1"
+                },
+                "outputs": {
+                    "action": [
+                        "UZ0gOV9FVN"
+                    ],
+                    "number": [
+                        "Hc7qnyanr5"
+                    ]
+                }
+            },
+            {
+                "name": "number_3x",
+                "info": {
+                    "x": 11439,
+                    "y": 828,
+                    "z": 105,
+                    "color": "#5a5a5a",
+                    "height": 219,
+                    "width": 356
+                },
+                "options": {
+                    "number1": "1",
+                    "number2": "9",
+                    "number3": ""
+                },
+                "outputs": {
+                    "number1": [
+                        "mp36RbBbGp"
+                    ],
+                    "number2": [
+                        "cWH4ki6ST1"
+                    ],
+                    "number3": []
+                }
+            },
+            {
+                "name": "get_data",
+                "info": {
+                    "x": 12644,
+                    "y": 766,
+                    "z": 106,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 392
+                },
+                "inputs": {
+                    "action": "UZ0gOV9FVN",
+                    "name": "YgIqM7dFSn",
+                    "target": "MwawA07GY2"
+                },
+                "options": {
+                    "data_type": "none"
+                },
+                "outputs": {
+                    "action": [
+                        "ioNcSu15u3"
+                    ],
+                    "value": [
+                        "e1t7jwfcjf"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 12260,
+                    "y": 908,
+                    "z": 107,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "raid_alerts_text_list"
+                },
+                "outputs": {
+                    "text": [
+                        "YgIqM7dFSn"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 13130,
+                    "y": 770,
+                    "z": 108,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "ioNcSu15u3",
+                    "list": "e1t7jwfcjf",
+                    "custom_position": "Hc7qnyanr5"
+                },
+                "options": {
+                    "position_type": "custom"
+                },
+                "outputs": {
+                    "action": [
+                        "ALMheTvsnG"
+                    ],
+                    "value": [
+                        "ymGzjDTTNl"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 11664,
+                    "y": 1132,
+                    "z": 109,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "Оповещение о рейде"
+                },
+                "outputs": {
+                    "text": [
+                        "uOrkIAGGOB"
+                    ]
+                }
+            },
+            {
+                "name": "find_server",
+                "info": {
+                    "x": 4586,
+                    "y": 2857,
+                    "z": 110,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 456
+                },
+                "inputs": {
+                    "action": "Mkt28OK9I1",
+                    "search_value": "38iq6HPK27"
+                },
+                "options": {
+                    "find_server_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "zD4UqNaIOP"
+                    ],
+                    "server": [
+                        "QiHn5MNY33"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 4129,
+                    "y": 2760,
+                    "z": 111,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "935560041405247589"
+                },
+                "outputs": {
+                    "text": [
+                        "38iq6HPK27"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 11832,
+                    "y": 1276,
+                    "z": 112,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 601
+                },
+                "inputs": {
+                    "action": "ALMheTvsnG",
+                    "text1": "ymGzjDTTNl",
+                    "text2": "VCwm4ClDmX",
+                    "text3": "CVcabKb0xP"
+                },
+                "options": {
+                    "text": "${text1}\n\n` connect 212.22.93.160:28035 `"
+                },
+                "outputs": {
+                    "action": [
+                        "cIm2IvoraC"
+                    ],
+                    "text": [
+                        "9GoMJGiPdH"
+                    ]
+                }
+            },
+            {
+                "name": "change_value_type_to_text",
+                "info": {
+                    "x": 9289,
+                    "y": 2931,
+                    "z": 117,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 268
+                },
+                "inputs": {
+                    "action": "e5w0fH4dKH",
+                    "value": "Nc0sOQyf3M"
+                },
+                "outputs": {
+                    "action": [
+                        "RXs6QD3a6L"
+                    ],
+                    "value": [
+                        "84mGr7AeTa"
+                    ]
+                }
+            },
+            {
+                "name": "change_value_type_to_text",
+                "info": {
+                    "x": 9273,
+                    "y": 3469,
+                    "z": 118,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 269
+                },
+                "inputs": {
+                    "action": "Jp1tIETQK3",
+                    "value": "szZFBrmvtL"
+                },
+                "outputs": {
+                    "action": [
+                        "TzZ5XnnO6j"
+                    ],
+                    "value": [
+                        "GElVS3sn9u"
+                    ]
+                }
+            },
+            {
+                "name": "change_value_type_to_text",
+                "info": {
+                    "x": 9268,
+                    "y": 3753,
+                    "z": 119,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 268
+                },
+                "inputs": {
+                    "action": "GeW3UTF77W",
+                    "value": "OlyaKJ64m2"
+                },
+                "outputs": {
+                    "action": [
+                        "SO8GJGpVmr"
+                    ],
+                    "value": [
+                        "2JExj05zZP"
+                    ]
+                }
+            },
+            {
+                "name": "transform_value",
+                "info": {
+                    "x": 9747,
+                    "y": 3461,
+                    "z": 122,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 491
+                },
+                "inputs": {
+                    "action": "TzZ5XnnO6j",
+                    "value": "GElVS3sn9u"
+                },
+                "options": {
+                    "transformation_type": "number1"
+                },
+                "outputs": {
+                    "action": [
+                        "8tzClGeE38"
+                    ],
+                    "result": [
+                        "7Rzqsfsxth"
+                    ]
+                }
+            },
+            {
+                "name": "transform_value",
+                "info": {
+                    "x": 9739,
+                    "y": 3765,
+                    "z": 123,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 491
+                },
+                "inputs": {
+                    "action": "SO8GJGpVmr",
+                    "value": "2JExj05zZP"
+                },
+                "options": {
+                    "transformation_type": "number1"
+                },
+                "outputs": {
+                    "action": [
+                        "CuAl3buGOX"
+                    ],
+                    "result": [
+                        "12HNiIzSsv"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_attachment_info",
+                "info": {
+                    "x": 13973,
+                    "y": 242,
+                    "z": 130,
+                    "color": "#5a5a5a",
+                    "height": 134,
+                    "width": 590
+                },
+                "inputs": {
+                    "action": "v2hikZ6jzg",
+                    "message_attachment": "OQWh9WNxfv"
+                },
+                "options": {
+                    "message_attachment_info": "5"
+                },
+                "outputs": {
+                    "action": [
+                        "0D6DR33VVH"
+                    ],
+                    "result": [
+                        "KKmE2lJJnU"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 12624,
+                    "y": 238,
+                    "z": 131,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "BzCd1009hE",
+                    "message": "y3zd2Gy8dM"
+                },
+                "options": {
+                    "message_info": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "tINrjYKZvB"
+                    ],
+                    "result": [
+                        "oaUZI1NEig"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 13408,
+                    "y": 236,
+                    "z": 132,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "tINrjYKZvB",
+                    "list": "oaUZI1NEig",
+                    "custom_position": "sPTMKQxDAP"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "v2hikZ6jzg"
+                    ],
+                    "value": [
+                        "OQWh9WNxfv"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 5364,
+                    "y": 2843,
+                    "z": 137,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "raid"
+                },
+                "outputs": {
+                    "text": [
+                        "MEuBy9IIhn"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 5749,
+                    "y": 2871,
+                    "z": 138,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "3hSySs10I1",
+                    "message": "nBt6HRirVr"
+                },
+                "options": {
+                    "message_info": "5"
+                },
+                "outputs": {
+                    "action": [
+                        "8mOn5oWswM"
+                    ],
+                    "result": [
+                        "AyFR6z4UqV"
+                    ]
+                }
+            },
+            {
+                "name": "find_text",
+                "info": {
+                    "x": 5758,
+                    "y": 3027,
+                    "z": 139,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 314
+                },
+                "inputs": {
+                    "action": "8mOn5oWswM",
+                    "source_text": "MEuBy9IIhn",
+                    "text": "AyFR6z4UqV",
+                    "result_number": "ZtWN4JLkgm"
+                },
+                "outputs": {
+                    "action": [
+                        "qGuQyLNhMJ"
+                    ],
+                    "position": [
+                        "AlPEZSei33"
+                    ]
+                }
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 6139,
+                    "y": 3057,
+                    "z": 140,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "qGuQyLNhMJ",
+                    "value1": "NwusPDf8Pu",
+                    "value2": "AlPEZSei33"
+                },
+                "options": {
+                    "comparison_type": "not_equal_exactly"
+                },
+                "outputs": {
+                    "action1": [
+                        "XFmqqbrrlh"
+                    ],
+                    "action2": []
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 5315,
+                    "y": 3003,
+                    "z": 141,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "-1"
+                },
+                "outputs": {
+                    "number": [
+                        "NwusPDf8Pu"
+                    ]
+                }
+            },
+            {
+                "name": "send_message_component",
+                "info": {
+                    "x": 11887,
+                    "y": 173,
+                    "z": 144,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "Li58FIU7QJ",
+                    "channel": "AnyEcD9y6m",
+                    "text": "y5yxANumWC",
+                    "embed": "Mm01girHZ6",
+                    "attachment": "sOptvE4BDx",
+                    "buttons": "jK8PBDRt2j",
+                    "split_message": "49XVS2FJY2"
+                },
+                "outputs": {
+                    "action": [
+                        "BzCd1009hE"
+                    ],
+                    "message": [
+                        "y3zd2Gy8dM"
+                    ],
+                    "error": []
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 4572,
+                    "y": 2419,
+                    "z": 145,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "c51SugIyK8",
+                    "message": "aIPuaa9Wlr"
+                },
+                "options": {
+                    "message_info": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "p55L0HGJmo"
+                    ],
+                    "result": [
+                        "sh4CHpr1xx"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 4580,
+                    "y": 2557,
+                    "z": 146,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "p55L0HGJmo",
+                    "list": "sh4CHpr1xx",
+                    "custom_position": "zWdeGT8cbT"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "3hmmjR8y3b"
+                    ],
+                    "value": [
+                        "N4bq7mnejN"
+                    ]
+                }
+            },
+            {
+                "name": "check_if_value_exists",
+                "info": {
+                    "x": 5098,
+                    "y": 2588,
+                    "z": 147,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 273
+                },
+                "inputs": {
+                    "action": "3hmmjR8y3b",
+                    "value": "N4bq7mnejN"
+                },
+                "outputs": {
+                    "action1": [],
+                    "action2": [
+                        "Mkt28OK9I1"
+                    ]
+                }
+            },
+            {
+                "name": "create_date",
+                "info": {
+                    "x": 12735,
+                    "y": 1121,
+                    "z": 148,
+                    "color": "#5a5a5a",
+                    "height": 330,
+                    "width": 431
+                },
+                "inputs": {
+                    "action": "cIm2IvoraC",
+                    "year": "Wt70SjqEGa",
+                    "month": "K1g9PKKvun",
+                    "day": "biUD271sWH",
+                    "hours": "PKHxorXkdT",
+                    "minutes": "4Kbt8rHe9g",
+                    "seconds": "z3giexZ065",
+                    "milliseconds": "sADlURS5kf",
+                    "custom_date": "Ky100du1Z4"
+                },
+                "options": {
+                    "start_date": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "T2KFVwZCuQ"
+                    ],
+                    "date": [
+                        "bzC5EPXIhK"
+                    ]
+                }
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "Онлайн",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "get_message_embed_info",
+                "info": {
+                    "x": 7010,
+                    "y": 3619,
+                    "z": 48,
+                    "color": "#5a5a5a",
+                    "height": 134,
+                    "width": 624
+                },
+                "inputs": {
+                    "action": "5vnd217osL",
+                    "message_embed": "XXptIU9F4s"
+                },
+                "options": {
+                    "message_embed_info": "10"
+                },
+                "outputs": {
+                    "action": [
+                        "JjT7rhNosm"
+                    ],
+                    "result": [
+                        "7N4qfy9ks1"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 7852,
+                    "y": 3634,
+                    "z": 49,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "JjT7rhNosm",
+                    "list": "7N4qfy9ks1",
+                    "custom_position": "1GUdLUkDYN"
+                },
+                "options": {
+                    "position_type": "custom"
+                },
+                "outputs": {
+                    "action": [
+                        "Ze6NaxfiFL"
+                    ],
+                    "value": [
+                        "AHnPECnfI1",
+                        "85qhhSD00G"
+                    ]
+                }
+            },
+            {
+                "name": "message_event",
+                "info": {
+                    "x": 3899,
+                    "y": 3206,
+                    "z": 51,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 233
+                },
+                "outputs": {
+                    "action": [
+                        "Mkt28OK9I1"
+                    ],
+                    "message": [
+                        "WH7pwxlAlE",
+                        "PXpJ6LVB0g",
+                        "IcFAY6OiGr"
+                    ]
+                },
+                "inputs": {},
+                "options": {}
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 5721,
+                    "y": 3613,
+                    "z": 52,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "XFmqqbrrlh",
+                    "message": "WH7pwxlAlE"
+                },
+                "options": {
+                    "message_info": "12"
+                },
+                "outputs": {
+                    "action": [
+                        "cthjSXsnxm"
+                    ],
+                    "result": [
+                        "VFjoIUFcof"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 6432,
+                    "y": 3612,
+                    "z": 53,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "cthjSXsnxm",
+                    "list": "VFjoIUFcof",
+                    "custom_position": "0uQ0aoSwqw"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "fvyPdebwNr"
+                    ],
+                    "value": [
+                        "XXptIU9F4s",
+                        "7kaKLHQ6T0"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 4584,
+                    "y": 3237,
+                    "z": 65,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "GWURMxr2QC",
+                    "message": "PXpJ6LVB0g"
+                },
+                "options": {
+                    "message_info": "3"
+                },
+                "outputs": {
+                    "action": [
+                        "twb5zY1OFN"
+                    ],
+                    "result": [
+                        "cN6MfiCz4o"
+                    ]
+                }
+            },
+            {
+                "name": "find_channel",
+                "info": {
+                    "x": 4578,
+                    "y": 3031,
+                    "z": 66,
+                    "color": "#5a5a5a",
+                    "height": 159,
+                    "width": 558
+                },
+                "inputs": {
+                    "action": "zD4UqNaIOP",
+                    "server": "QiHn5MNY33",
+                    "search_value": "bJY1c49fsQ"
+                },
+                "options": {
+                    "channel_type": "any",
+                    "find_channel_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "GWURMxr2QC"
+                    ],
+                    "channel": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 3622,
+                    "y": 2964,
+                    "z": 67,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "998565465959964792"
+                },
+                "outputs": {
+                    "text": [
+                        "bJY1c49fsQ",
+                        "R6fepAbgjK"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "find_text",
+                "info": {
+                    "x": 4590,
+                    "y": 3551,
+                    "z": 68,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 314
+                },
+                "inputs": {
+                    "action": "u34oCphzJY",
+                    "source_text": "HmSBeJfc3P",
+                    "text": "R6fepAbgjK",
+                    "result_number": "JwXSMThoYQ"
+                },
+                "outputs": {
+                    "action": [
+                        "eH0iEsWfob"
+                    ],
+                    "position": [
+                        "OPuWKr6ZUi"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "get_text_channel_info",
+                "info": {
+                    "x": 4581,
+                    "y": 3389,
+                    "z": 69,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 687
+                },
+                "inputs": {
+                    "action": "twb5zY1OFN",
+                    "text_channel": "cN6MfiCz4o"
+                },
+                "options": {
+                    "text_channel_info": "5"
+                },
+                "outputs": {
+                    "action": [
+                        "u34oCphzJY"
+                    ],
+                    "result": [
+                        "HmSBeJfc3P"
+                    ]
+                }
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 4996,
+                    "y": 3585,
+                    "z": 70,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "eH0iEsWfob",
+                    "value1": "OPuWKr6ZUi",
+                    "value2": "VSugmVCrqn"
+                },
+                "options": {
+                    "comparison_type": "not_equal_exactly"
+                },
+                "outputs": {
+                    "action1": [
+                        "QILzDfDSyK"
+                    ],
+                    "action2": []
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 4586,
+                    "y": 3776,
+                    "z": 71,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "-1"
+                },
+                "outputs": {
+                    "number": [
+                        "VSugmVCrqn"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "number_3x",
+                "info": {
+                    "x": 7264,
+                    "y": 3833,
+                    "z": 73,
+                    "color": "#5a5a5a",
+                    "height": 219,
+                    "width": 356
+                },
+                "options": {
+                    "number1": "1",
+                    "number2": "2",
+                    "number3": "3"
+                },
+                "outputs": {
+                    "number1": [
+                        "1GUdLUkDYN"
+                    ],
+                    "number2": [],
+                    "number3": []
+                },
+                "inputs": {}
+            },
+            {
+                "name": "text_2x",
+                "info": {
+                    "x": 7967,
+                    "y": 3367,
+                    "z": 75,
+                    "color": "#5a5a5a",
+                    "height": 185,
+                    "width": 318
+                },
+                "options": {
+                    "text1": "name",
+                    "text2": "value"
+                },
+                "outputs": {
+                    "text1": [
+                        "JeZdJm9Atr"
+                    ],
+                    "text2": [
+                        "9WxaMgVHJP"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 9354,
+                    "y": 3288,
+                    "z": 77,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "6HkJshjnQX",
+                    "object": "AHnPECnfI1",
+                    "key": "9WxaMgVHJP"
+                },
+                "outputs": {
+                    "action": [
+                        "paWdtXuujT"
+                    ],
+                    "value": [
+                        "Mn50ej8hWB"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 8769,
+                    "y": 2931,
+                    "z": 88,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "Ze6NaxfiFL",
+                    "object": "85qhhSD00G",
+                    "key": "JeZdJm9Atr"
+                },
+                "outputs": {
+                    "action": [
+                        "e5w0fH4dKH"
+                    ],
+                    "value": [
+                        "Nc0sOQyf3M"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "find_server",
+                "info": {
+                    "x": 4586,
+                    "y": 2857,
+                    "z": 110,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 456
+                },
+                "inputs": {
+                    "action": "Mkt28OK9I1",
+                    "search_value": "38iq6HPK27"
+                },
+                "options": {
+                    "find_server_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "zD4UqNaIOP"
+                    ],
+                    "server": [
+                        "QiHn5MNY33"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 4129,
+                    "y": 2760,
+                    "z": 111,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "935560041405247589"
+                },
+                "outputs": {
+                    "text": [
+                        "38iq6HPK27"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "change_value_type_to_text",
+                "info": {
+                    "x": 9848,
+                    "y": 3275,
+                    "z": 116,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 268
+                },
+                "inputs": {
+                    "action": "paWdtXuujT",
+                    "value": "Mn50ej8hWB"
+                },
+                "outputs": {
+                    "action": [
+                        "huqVwHH6QI"
+                    ],
+                    "value": [
+                        "9cbds4IYVe"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "change_value_type_to_text",
+                "info": {
+                    "x": 9282,
+                    "y": 2953,
+                    "z": 117,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 268
+                },
+                "inputs": {
+                    "action": "e5w0fH4dKH",
+                    "value": "Nc0sOQyf3M"
+                },
+                "outputs": {
+                    "action": [
+                        "yIk51BQIi5"
+                    ],
+                    "value": [
+                        "QDOEwjvdrD"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "check_if_value_exists",
+                "info": {
+                    "x": 6595,
+                    "y": 3454,
+                    "z": 126,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 273
+                },
+                "inputs": {
+                    "action": "fvyPdebwNr",
+                    "value": "7kaKLHQ6T0"
+                },
+                "outputs": {
+                    "action1": [
+                        "5vnd217osL"
+                    ],
+                    "action2": []
+                },
+                "options": {}
+            },
+            {
+                "name": "get_message_info",
+                "info": {
+                    "x": 5602,
+                    "y": 2807,
+                    "z": 127,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 653
+                },
+                "inputs": {
+                    "action": "QILzDfDSyK",
+                    "message": "IcFAY6OiGr"
+                },
+                "options": {
+                    "message_info": "5"
+                },
+                "outputs": {
+                    "action": [
+                        "6gSvlnNKiZ"
+                    ],
+                    "result": [
+                        "gKLv1r3hPr"
+                    ]
+                }
+            },
+            {
+                "name": "find_text",
+                "info": {
+                    "x": 5600,
+                    "y": 2992,
+                    "z": 129,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 314
+                },
+                "inputs": {
+                    "action": "6gSvlnNKiZ",
+                    "source_text": "0YujXBMm6E",
+                    "text": "gKLv1r3hPr",
+                    "result_number": "40Xn3zuFn3"
+                },
+                "outputs": {
+                    "action": [
+                        "4WPPZ8mCbg"
+                    ],
+                    "position": [
+                        "go3mLilmNj"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 5591,
+                    "y": 2639,
+                    "z": 130,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "online"
+                },
+                "outputs": {
+                    "text": [
+                        "0YujXBMm6E"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 5987,
+                    "y": 2987,
+                    "z": 131,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "4WPPZ8mCbg",
+                    "value1": "go3mLilmNj",
+                    "value2": "p0RPjP5GLa"
+                },
+                "options": {
+                    "comparison_type": "not_equal_exactly"
+                },
+                "outputs": {
+                    "action1": [
+                        "XFmqqbrrlh"
+                    ],
+                    "action2": []
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 5217,
+                    "y": 3022,
+                    "z": 132,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "-1"
+                },
+                "outputs": {
+                    "number": [
+                        "p0RPjP5GLa"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "set_bot_activity",
+                "info": {
+                    "x": 10305,
+                    "y": 3271,
+                    "z": 134,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 411
+                },
+                "inputs": {
+                    "action": "huqVwHH6QI",
+                    "activity_name": "9cbds4IYVe",
+                    "activity_url": "hZs1gOOT0l"
+                },
+                "options": {
+                    "activity_type": "watching"
+                },
+                "outputs": {
+                    "action": []
+                }
+            },
+            {
+                "name": "find_text",
+                "info": {
+                    "x": 9801,
+                    "y": 2895,
+                    "z": 136,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 314
+                },
+                "inputs": {
+                    "action": "yIk51BQIi5",
+                    "source_text": "iixvyt1yhO",
+                    "text": "QDOEwjvdrD",
+                    "result_number": "7KmZTK7YZq"
+                },
+                "outputs": {
+                    "action": [
+                        "zMCQDAva0c"
+                    ],
+                    "position": [
+                        "1c0nuMJVkE"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 9351,
+                    "y": 2762,
+                    "z": 137,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "off"
+                },
+                "outputs": {
+                    "text": [
+                        "iixvyt1yhO"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "check_comparisonv3",
+                "info": {
+                    "x": 10298,
+                    "y": 2923,
+                    "z": 138,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "zMCQDAva0c",
+                    "value1": "1c0nuMJVkE",
+                    "value2": "bemDaJ7jLe"
+                },
+                "options": {
+                    "comparison_type": "not_equal_exactly"
+                },
+                "outputs": {
+                    "action1": [
+                        "9w76DeY9bI"
+                    ],
+                    "action2": [
+                        "iddcAv0ZIL"
+                    ],
+                    "boolean": []
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 9810,
+                    "y": 2714,
+                    "z": 139,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "-1"
+                },
+                "outputs": {
+                    "number": [
+                        "bemDaJ7jLe"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "merge_actions_3x",
+                "info": {
+                    "x": 8985,
+                    "y": 3240,
+                    "z": 141,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "iddcAv0ZIL",
+                    "action2": "313o78NKiE",
+                    "action3": "HN9Oz7SCTO"
+                },
+                "outputs": {
+                    "action": [
+                        "6HkJshjnQX"
+                    ]
+                },
+                "options": {}
+            },
+            {
+                "name": "set_bot_activity",
+                "info": {
+                    "x": 11240,
+                    "y": 2790,
+                    "z": 142,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 411
+                },
+                "inputs": {
+                    "action": "9w76DeY9bI",
+                    "activity_name": "fyzRe3t0tD",
+                    "activity_url": "TAua3Pws8L"
+                },
+                "options": {
+                    "activity_type": "playing"
+                },
+                "outputs": {
+                    "action": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 10778,
+                    "y": 2764,
+                    "z": 143,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "ВЫКЛЮЧЕН"
+                },
+                "outputs": {
+                    "text": [
+                        "fyzRe3t0tD"
+                    ]
+                },
+                "inputs": {}
+            }
+        ],
+        "notes": []
+    }
+]
